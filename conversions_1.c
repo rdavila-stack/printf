@@ -6,7 +6,7 @@
 /*   By: rdavila <rdavila@student.42wolfsburg.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/18 20:38:35 by rdavila           #+#    #+#             */
-/*   Updated: 2022/01/06 14:11:20 by rdavila          ###   ########.fr       */
+/*   Updated: 2022/01/10 15:34:45 by rdavila          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ int	con_s(va_list list)
 	len = 0;
 	if (ptr == NULL)
 	{
-		write(1, "(nil)", 5);
-		return (5);
+		write(1, "(null)", 6);
+		return (6);
 	}
 	while (ptr[len] != '\0')
 	{
